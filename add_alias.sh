@@ -1,4 +1,7 @@
 #!/bin/bash
+
+set -Euo pipefail
+
 if [[ "${BASH_SOURCE[0]}" = "$0" ]]; then
     echo "This script should be sourced, not run directly."
     exit 1

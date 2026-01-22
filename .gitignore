@@ -1,1 +1,4 @@
-/exams.db
+exams.db
+
+__pycache__/
+
